@@ -4,7 +4,8 @@
 #include <unistd.h>
 #include <string.h>
 
-
+// IMPORTANTE:   
+//         PARA EXECUTAR: ./main n_elementos n_threads
 int pthread_yield (void);
 void *soma(void *th_num);
 
